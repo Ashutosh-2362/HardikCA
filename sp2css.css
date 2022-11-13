@@ -210,7 +210,11 @@ header .fa-bars{
     .home{
         background-position: left;
 
-    }  
+    } 
+    .about .row .video-container h3{
+        position:absolute;
+        top:91%;
+}
 }
 
 @media (max-width:768px){
@@ -244,5 +248,10 @@ header .fa-bars{
     .home .content span{
         font-size: 2.5rem;
     }
+    
+    .about .row .video-container h3{
+        position:absolute;
+        top:92.5%;
+}
 }
 
